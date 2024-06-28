@@ -1,0 +1,242 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a3741ba36628dc4e85262db8af30180, type: 3}
+  m_Name: Factory
+  m_EditorClassIdentifier: 
+  _productIcons:
+  - id: bun
+    sprite: {fileID: 21300000, guid: 4652bcb8c1f1ff74b8fb8168eaabb25a, type: 3}
+  - id: eggs
+    sprite: {fileID: 21300000, guid: a4385f741c422bd4f8151dd48b1eef31, type: 3}
+  - id: eggs_coocked
+    sprite: {fileID: 21300000, guid: b62004f48f23bc94e976bf5d8ea85f10, type: 3}
+  - id: mustard
+    sprite: {fileID: 21300000, guid: 3ffea944f3a5f5842b03f15056684f6f, type: 3}
+  - id: potato
+    sprite: {fileID: 21300000, guid: 74b7013e9902f044bb25f5384b8c391f, type: 3}
+  - id: salad
+    sprite: {fileID: 21300000, guid: 819865464a7e2ff48822650d64238bc7, type: 3}
+  - id: sause
+    sprite: {fileID: 21300000, guid: 9fe106dd818b91c4aabfda830657b3c3, type: 3}
+  - id: sousage
+    sprite: {fileID: 21300000, guid: 99dd8aaf9303bd34e946132d54ad26ad, type: 3}
+  - id: sousage_coocked
+    sprite: {fileID: 21300000, guid: b04e9a072064c404cb66a14ee21c758f, type: 3}
+  - id: stake_coocked
+    sprite: {fileID: 21300000, guid: 9ce805a5a3df696448951f9e19693f74, type: 3}
+  - id: tomato
+    sprite: {fileID: 21300000, guid: bb7faf4c850ef48cdb33c2bd17737619, type: 3}
+  - id: stake
+    sprite: {fileID: 21300000, guid: 6f488975e9a4374419ef5f37e6f8d957, type: 3}
+  - id: coffee
+    sprite: {fileID: 21300000, guid: d9c4adeeb40b10041bef14c408cc8366, type: 3}
+  - id: egg_with_herbs_and_tomatoes
+    sprite: {fileID: 21300000, guid: c84ca452c5566e143922ab67e04b9a07, type: 3}
+  - id: home_made_potatoes
+    sprite: {fileID: 21300000, guid: 8b28b6a3c322ca64a9fc4dc8551e865d, type: 3}
+  - id: hotdog
+    sprite: {fileID: 21300000, guid: 6c14f408b9f773c48948222266a9f232, type: 3}
+  - id: lasagna_with_potatoes
+    sprite: {fileID: 21300000, guid: e4f58354bf26db84886efd1c493edd06, type: 3}
+  - id: stake_in_sauces
+    sprite: {fileID: 21300000, guid: d51ea6a2224c6f94a8fc8ad9fc745df8, type: 3}
+  - id: burger
+    sprite: {fileID: 21300000, guid: e868eb4ff1d397e44b9bc0f6f0647927, type: 3}
+  _mainIcons:
+  - id: gold
+    sprite: {fileID: 21300000, guid: 4ca1a9068a5bebd4ba51dac382d37c50, type: 3}
+  - id: exp
+    sprite: {fileID: 21300000, guid: 5bf10db6482634b4bb146ae1113225b9, type: 3}
+  - id: rating_point
+    sprite: {fileID: 21300000, guid: 815ef086af314604ba518e3914ead242, type: 3}
+  - id: crystal
+    sprite: {fileID: 21300000, guid: 5b62dd6dd304fe34991c5314832c8883, type: 3}
+  - id: Pause
+    sprite: {fileID: 213021270, guid: 622d9738abe9fbc478177d16c1824eb6, type: 3}
+  - id: Play
+    sprite: {fileID: -1780759059, guid: b85386eee9a76c6478fc490967b9de9f, type: 3}
+  _npcIcons:
+  - id: solo
+    sprite: {fileID: 21300000, guid: f802ceda35f5c4662a240c6ceef56a64, type: 3}
+  - id: duo
+    sprite: {fileID: 21300000, guid: ee6c8f37bd0f143a89513cadc662c0b0, type: 3}
+  - id: three
+    sprite: {fileID: 21300000, guid: 695bf1a0f9b004b57b57a6b3f78e4322, type: 3}
+  _decorsIcons:
+  - id: decor_cat_1
+    sprite: {fileID: 21300000, guid: 96ae07115283d0243aa78d683750173f, type: 3}
+  - id: decor_cat_2
+    sprite: {fileID: 21300000, guid: 06691aec609d6d64cb33ec488361ea18, type: 3}
+  - id: decor_cat_3
+    sprite: {fileID: 21300000, guid: fd94118a0a8c8544c8cb1983b7013326, type: 3}
+  - id: decor_cat_4
+    sprite: {fileID: 21300000, guid: 230ffefd3d424ec4982111f564a69116, type: 3}
+  _languageIcons:
+  - id: ru
+    sprite: {fileID: 21300000, guid: d05dfdfc6f9b941c19ac4e8ce7bf4221, type: 3}
+  - id: en
+    sprite: {fileID: 21300000, guid: 888233c54781148e490d7530fcf0d104, type: 3}
+  - id: de
+    sprite: {fileID: 21300000, guid: 7318fe20aad454f62b8b4031d14cd39c, type: 3}
+  - id: fr
+    sprite: {fileID: 21300000, guid: b6af37fcdc0914243a947264e020d4a7, type: 3}
+  - id: es
+    sprite: {fileID: 21300000, guid: c717ffb210c9e44e9b3b86a011333d21, type: 3}
+  - id: zh
+    sprite: {fileID: 21300000, guid: cfd1942eb757942febff5140442aaa4b, type: 3}
+  _levels:
+  - id: Lobby
+    prefab: {fileID: 8977347009695927866, guid: affc9b4bb9ca5a145b1bc3fd23017ae5, type: 3}
+  - id: Battle
+    prefab: {fileID: 8977347009695927866, guid: 5fb9d41e844f03549aac556ddb8a780c, type: 3}
+  - id: PreBattle
+    prefab: {fileID: 4011648605637102108, guid: 6cb18ba1591dcb7409f5f7950591b9d9, type: 3}
+  _building:
+  - id: bin
+    prefab: {fileID: 5854026987488409148, guid: e92d9a1bf3dd4a84da284bf1a8c55aaa, type: 3}
+  - id: cash
+    prefab: {fileID: 5854026987488409148, guid: 87ea73f778e7d7d499cd4a5ca5698c30, type: 3}
+  - id: coffee_machine
+    prefab: {fileID: 5854026987488409148, guid: d6695fde88a768f4f8d345816afee8be, type: 3}
+  - id: kitchen_stove_small
+    prefab: {fileID: 5854026987488409148, guid: 6bd3642ad268b8a4190f8bd30b278ddb, type: 3}
+  - id: kitchen_stove_big
+    prefab: {fileID: 5854026987488409148, guid: 73e92b055dacb2c40b8af446ac9966f4, type: 3}
+  - id: table_1
+    prefab: {fileID: 5854026987488409148, guid: 51610171c17f71449ac6991939601ee2, type: 3}
+  - id: table_2
+    prefab: {fileID: 5854026987488409148, guid: 4d83cfc3c22f6ab4cb8530504e777234, type: 3}
+  - id: table_3
+    prefab: {fileID: 5854026987488409148, guid: 46d0e937f17d8d947b061ede2560e3dd, type: 3}
+  - id: table_4
+    prefab: {fileID: 5854026987488409148, guid: 35049a401608a21478a817f8b3574143, type: 3}
+  - id: player
+    prefab: {fileID: 3244146951581421427, guid: ce1def2870245a24ca22c250ee3fed02, type: 3}
+  - id: buyer
+    prefab: {fileID: 3244146951581421427, guid: e2ddeec3342621543927c76f767f6541, type: 3}
+  - id: shop
+    prefab: {fileID: 3244146951581421427, guid: 38ca117d51b869645bf310eaa1c0f3db, type: 3}
+  - id: player_model
+    prefab: {fileID: 3244146951581421427, guid: 1bf1ff94863afba42a1361139c578b52, type: 3}
+  - id: floor
+    prefab: {fileID: 5854026987488409148, guid: 2959d7dd20615804a9d726a059602069, type: 3}
+  - id: decor_table
+    prefab: {fileID: 5854026987488409148, guid: a3708682c3577354084cf2ec319bbc43, type: 3}
+  - id: table_coocked
+    prefab: {fileID: 5854026987488409148, guid: bd1d3d3f4bf5d374a9646a94ebe0794f, type: 3}
+  _products:
+  - id: bun
+    prefab: {fileID: 4163643574742122273, guid: 4318f0a0f9bbe094fbd8becd42999e00, type: 3}
+  - id: eggs
+    prefab: {fileID: 1759885720785474460, guid: 5167503b613a2cd44b8ea61ea06e0af1, type: 3}
+  - id: eggs_coocked
+    prefab: {fileID: 5377547427668140244, guid: c6d27853b6d09ab49bd214de9e46282d, type: 3}
+  - id: mustard
+    prefab: {fileID: 1673507729959478498, guid: 9ce05bd6ff7c6bb4aaf78eeb373eb7bf, type: 3}
+  - id: potato
+    prefab: {fileID: 5584243726396528671, guid: 234bffc3f95cdeb46a7c32e481c34021, type: 3}
+  - id: salad
+    prefab: {fileID: 6085682352325537344, guid: 72cb0a7e96ee62d438c6a11c5ee96e2d, type: 3}
+  - id: sause
+    prefab: {fileID: 7372496182288583975, guid: b24ccd12db987544fbb57149a9cec092, type: 3}
+  - id: sousage
+    prefab: {fileID: 8171303248724362494, guid: a83b61127f2f908459ba91f8c1b25a3f, type: 3}
+  - id: sousage_coocked
+    prefab: {fileID: 7855249907719032182, guid: c14bc346be8947840b16e618e81429ba, type: 3}
+  - id: stake
+    prefab: {fileID: 1780964931135335594, guid: 3ef7c214ac829884aaeda5e25025c1c3, type: 3}
+  - id: stake_coocked
+    prefab: {fileID: 7265440494151809558, guid: da0e411899a4b064997abdac582b5102, type: 3}
+  - id: tomato
+    prefab: {fileID: 3719384262457109349, guid: dbb836d00934b52469d205649c356ca4, type: 3}
+  - id: coffee
+    prefab: {fileID: 3179688997547077438, guid: 6f62e5a3b916e2943a7c526758a7e2db, type: 3}
+  - id: cactus_1
+    prefab: {fileID: 5854026987488409148, guid: 776ff4fb38fd70040ae62149884371d8, type: 3}
+  - id: cactus_2
+    prefab: {fileID: 5854026987488409148, guid: abdffa68127d04f47b191fa60d008e19, type: 3}
+  - id: burger
+    prefab: {fileID: 8798410081440720018, guid: 917148e2e26a0174b863268bea724d65, type: 3}
+  - id: egg_with_herbs_and_tomatoes
+    prefab: {fileID: 1080499160093647055, guid: 8cdfd4dc27feb8e4cb643e824ceed60b, type: 3}
+  - id: home_made_potatoes
+    prefab: {fileID: 345268664785297943, guid: 3d62780552c2e72469b5980caf0a7c65, type: 3}
+  - id: hotdog
+    prefab: {fileID: 3626912412730976503, guid: e5a3d9b41df7cd041856e80c18f8f607, type: 3}
+  - id: lasagna_with_potatoes
+    prefab: {fileID: 8350964100890853147, guid: 2054d69daa94a5a47a8912fcca89ed1d, type: 3}
+  - id: stake_in_sauces
+    prefab: {fileID: 8388765016920478881, guid: 9b0c08a1151fc2843ba9efdba14eb8f4, type: 3}
+  _objectsPool:
+  - id: dropped_ui_item
+    prefab: {fileID: 3217671970760313344, guid: ff11fab17494dfb40bac323690e564e4, type: 3}
+  - id: debug_building_indicator
+    prefab: {fileID: 6897999401212284978, guid: 701a38e89398a584a92c6e77a2d987d9, type: 3}
+  _pointLevel:
+  - id: Point_1
+    prefab: {fileID: 8141532090989917212, guid: 84f0ac5f47566d947ac3bdb9662a44fb, type: 3}
+  _decors:
+  - id: decor_cat_1
+    prefab: {fileID: 5164757717810871732, guid: 92f0612198af119479bb0b213793277a, type: 3}
+  - id: decor_cat_2
+    prefab: {fileID: 9189563741346629388, guid: 5c638f2ccc9d6654cbae7fe1342be000, type: 3}
+  - id: decor_cat_3
+    prefab: {fileID: 1177721858314268206, guid: abbccb177af7d3d4abc6ee02fbd32e77, type: 3}
+  - id: decor_cat_4
+    prefab: {fileID: 4607122788249614571, guid: 01a31f5d39905cf4f80261b012b60839, type: 3}
+  - id: cactus_1
+    prefab: {fileID: 5854026987488409148, guid: 776ff4fb38fd70040ae62149884371d8, type: 3}
+  - id: cactus_2
+    prefab: {fileID: 5854026987488409148, guid: abdffa68127d04f47b191fa60d008e19, type: 3}
+  - id: decor_buyer_1
+    prefab: {fileID: 2964479807880519968, guid: e0bcdcf48c5b4d347af7c23ec886e99c, type: 3}
+  _dialogs:
+  - id: DialogBattleEnd
+    prefab: {fileID: 7968055365901994509, guid: 83d9593906aff4f439d4f081420d26dd, type: 3}
+  - id: DialogConfirm
+    prefab: {fileID: 8906832057309256094, guid: a0fcf78a21fe23847bbb2033cbeeef00, type: 3}
+  - id: DialogInfo
+    prefab: {fileID: 8906832057309256094, guid: b079d782e645fae42ae8f441ead32b34, type: 3}
+  - id: DialogInventory
+    prefab: {fileID: 4279666897054470855, guid: cf3a974627f4ed84ebebc5e7846f2d32, type: 3}
+  - id: DialogLevelProgress
+    prefab: {fileID: 4279666897054470855, guid: c905a8cd1457d3844b001a055ea353c3, type: 3}
+  - id: DialogLevelUp
+    prefab: {fileID: 7968055365901994509, guid: 4488bc1cb171ea64b82b812f46a5bea8, type: 3}
+  - id: DialogOrders
+    prefab: {fileID: 6049837401032356059, guid: c6cddcb8d0cb36f409a6d17c0f721e1a, type: 3}
+  - id: DialogRatingLevelProgress
+    prefab: {fileID: 4279666897054470855, guid: 268fca118a5fb4c4a9c0c392b32ccde0, type: 3}
+  - id: DialogSettings
+    prefab: {fileID: 4974935163218015891, guid: 1c06ae9362eec594aaf26bc1fd2e0a62, type: 3}
+  - id: DialogShop
+    prefab: {fileID: 4279666897054470855, guid: dc9e87fea51a06346b5c3ae071eaefd2, type: 3}
+  - id: DialogStartLevel
+    prefab: {fileID: 3637686463841830150, guid: 4a7f7500bbaef03449b221732b5e862d, type: 3}
+  _panels:
+  - id: PanelActions
+    prefab: {fileID: 4279666897054470855, guid: e3c22a5829f67ec44ae2916d7cbe2051, type: 3}
+  _sounds:
+  - Id: lobby
+    Sound: {fileID: 8300000, guid: d9870825ba1ec4bb4a07756b970c99cb, type: 3}
+  - Id: battle
+    Sound: {fileID: 8300000, guid: 04f971ee063514d189376c6d659ce51f, type: 3}
+  - Id: popup
+    Sound: {fileID: 8300000, guid: 9577df3b37ebe154499ece3f120404f0, type: 3}
+  - Id: win
+    Sound: {fileID: 8300000, guid: dd4ff1cd34a873843906ceac55a0cb76, type: 3}
+  - Id: loose
+    Sound: {fileID: 8300000, guid: 3946e5a01a2f2ab4985add727aec4f7a, type: 3}
+  - Id: SoundFlag
+    Sound: {fileID: 8300000, guid: d6efe7737a9da504f9e2f3b2fa9080b2, type: 3}
+  - Id: PreBattle
+    Sound: {fileID: 8300000, guid: ff633a016513d904d973dd5675f491ed, type: 3}

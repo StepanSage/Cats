@@ -1,0 +1,2 @@
+Build path: C:/Games/Unity GAME/Zombi aren/WebGL
+Build number: 18
